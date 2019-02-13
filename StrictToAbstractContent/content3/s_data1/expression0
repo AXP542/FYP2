@@ -1,0 +1,24 @@
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+<apply>
+<eq/>
+<apply>
+<apply_to_list/>
+<mean/>
+<ci>L</ci>
+</apply>
+<apply>
+<divide/>
+<apply>
+<apply_to_list/>
+<plus/>
+<ci>L</ci>
+</apply>
+<apply>
+<size/>
+<ci>L</ci>
+</apply>
+</apply>
+</apply>
+</math>
+

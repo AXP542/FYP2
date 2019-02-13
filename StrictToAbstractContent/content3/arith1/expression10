@@ -1,0 +1,27 @@
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+<bind>
+<forall/>
+<bvar>
+<ci>a</ci>
+</bvar>
+<apply>
+<implies/>
+<apply>
+<neq/>
+<ci>a</ci>
+<cn>0</cn>
+</apply>
+<apply>
+<eq/>
+<apply>
+<divide/>
+<ci>a</ci>
+<ci>a</ci>
+</apply>
+<cn>1</cn>
+</apply>
+</apply>
+</bind>
+</math>
+

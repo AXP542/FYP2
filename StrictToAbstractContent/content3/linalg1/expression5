@@ -1,0 +1,13 @@
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+<apply>
+<selector/>
+<vector>
+<cn type="integer">3</cn>
+<cn type="integer">6</cn>
+<cn type="integer">9</cn>
+</vector>
+<cn type="integer">2</cn>
+</apply>
+</math>
+

@@ -1,0 +1,15 @@
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+<apply>
+<subset/>
+<apply>
+<range/>
+<ci>f</ci>
+</apply>
+<apply>
+<image/>
+<ci>f</ci>
+</apply>
+</apply>
+</math>
+

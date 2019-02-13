@@ -1,0 +1,29 @@
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+<bind>
+<forall/>
+<bvar>
+<ci>x</ci>
+</bvar>
+<apply>
+<implies/>
+<apply>
+<in/>
+<ci>x</ci>
+<reals/>
+</apply>
+<apply>
+<leq/>
+<apply>
+<abs/>
+<apply>
+<sin/>
+<ci>x</ci>
+</apply>
+</apply>
+<cn type="real">1.0</cn>
+</apply>
+</apply>
+</bind>
+</math>
+

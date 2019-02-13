@@ -1,0 +1,46 @@
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+<apply>
+<eq/>
+<eulergamma/>
+<apply>
+<limit/>
+<bvar>
+<ci>m</ci>
+</bvar>
+<condition>
+<apply>
+<tendsto type="below"/>
+<ci>m</ci>
+<infinity/>
+</apply>
+</condition>
+<apply>
+<minus/>
+<apply>
+<sum/>
+<interval closure="closed">
+<cn>1</cn>
+<ci>m</ci>
+</interval>
+<bind>
+<lambda/>
+<bvar>
+<ci>j</ci>
+</bvar>
+<apply>
+<divide/>
+<cn type="integer">1</cn>
+<ci>j</ci>
+</apply>
+</bind>
+</apply>
+<apply>
+<ln/>
+<ci>m</ci>
+</apply>
+</apply>
+</apply>
+</apply>
+</math>
+

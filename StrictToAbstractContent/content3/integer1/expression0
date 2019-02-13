@@ -1,0 +1,21 @@
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+<apply>
+<implies/>
+<apply>
+<factorof/>
+<ci>b</ci>
+<ci>a</ci>
+</apply>
+<apply>
+<eq/>
+<apply>
+<rem/>
+<ci>a</ci>
+<ci>b</ci>
+</apply>
+<cn>0</cn>
+</apply>
+</apply>
+</math>
+

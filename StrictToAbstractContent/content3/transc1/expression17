@@ -1,0 +1,22 @@
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+<apply>
+<eq/>
+<apply>
+<tanh/>
+<ci>A</ci>
+</apply>
+<apply>
+<divide/>
+<apply>
+<sinh/>
+<ci>A</ci>
+</apply>
+<apply>
+<cosh/>
+<ci>A</ci>
+</apply>
+</apply>
+</apply>
+</math>
+

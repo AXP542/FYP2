@@ -1,0 +1,19 @@
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+<apply>
+<notprsubset/>
+<apply>
+<multiset/>
+<cn type="integer">1</cn>
+<cn type="integer">2</cn>
+<cn type="integer">1</cn>
+</apply>
+<apply>
+<multiset/>
+<cn type="integer">1</cn>
+<cn type="integer">2</cn>
+<cn type="integer">1</cn>
+</apply>
+</apply>
+</math>
+

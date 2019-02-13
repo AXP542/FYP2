@@ -1,0 +1,17 @@
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+<apply>
+<eq/>
+<imaginaryi/>
+<cn type="complex-polar">
+<cn>1</cn>
+<sep/>
+<apply>
+<divide/>
+<pi/>
+<cn type="integer">2</cn>
+</apply>
+</cn>
+</apply>
+</math>
+

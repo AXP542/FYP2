@@ -1,0 +1,25 @@
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+<apply>
+<implies/>
+<apply>
+<and/>
+<apply>
+<geq/>
+<ci>a</ci>
+<ci>b</ci>
+</apply>
+<apply>
+<geq/>
+<ci>b</ci>
+<ci>c</ci>
+</apply>
+</apply>
+<apply>
+<geq/>
+<ci>a</ci>
+<ci>c</ci>
+</apply>
+</apply>
+</math>
+

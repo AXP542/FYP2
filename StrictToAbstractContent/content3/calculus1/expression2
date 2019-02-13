@@ -1,0 +1,22 @@
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+<apply>
+<eq/>
+<apply>
+<apply>
+<diff/>
+<bvar>
+<ci>x</ci>
+</bvar>
+<apply>
+<plus/>
+<ci>x</ci>
+<cn type="real">1.0</cn>
+</apply>
+</apply>
+<ci>y</ci>
+</apply>
+<cn type="real">1.0</cn>
+</apply>
+</math>
+

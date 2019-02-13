@@ -1,0 +1,59 @@
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+<apply>
+<eq/>
+<apply>
+<curl/>
+<ci>F</ci>
+</apply>
+<apply>
+<plus/>
+<apply>
+<vectorproduct/>
+<vector>
+<cn type="integer">1</cn>
+<cn type="integer">0</cn>
+<cn type="integer">0</cn>
+</vector>
+<apply>
+<partialdiff/>
+<list>
+<cn type="integer">1</cn>
+</list>
+<lambda/>
+</apply>
+</apply>
+<apply>
+<vectorproduct/>
+<vector>
+<cn type="integer">0</cn>
+<cn type="integer">1</cn>
+<cn type="integer">0</cn>
+</vector>
+<apply>
+<partialdiff/>
+<list>
+<cn type="integer">2</cn>
+</list>
+<lambda/>
+</apply>
+</apply>
+<apply>
+<vectorproduct/>
+<vector>
+<cn type="integer">0</cn>
+<cn type="integer">0</cn>
+<cn type="integer">1</cn>
+</vector>
+<apply>
+<partialdiff/>
+<list>
+<cn type="integer">3</cn>
+</list>
+<lambda/>
+</apply>
+</apply>
+</apply>
+</apply>
+</math>
+

@@ -1,0 +1,20 @@
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+<apply>
+<implies/>
+<apply>
+<notprsubset/>
+<ci>A</ci>
+<ci>B</ci>
+</apply>
+<apply>
+<not/>
+<apply>
+<prsubset/>
+<ci>A</ci>
+<ci>B</ci>
+</apply>
+</apply>
+</apply>
+</math>
+

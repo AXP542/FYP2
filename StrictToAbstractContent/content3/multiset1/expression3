@@ -1,0 +1,13 @@
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+<apply>
+<eq/>
+<apply>
+<union/>
+<ci>A</ci>
+<emptyset/>
+</apply>
+<ci>A</ci>
+</apply>
+</math>
+

@@ -1,0 +1,15 @@
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+<apply>
+<subset/>
+<interval closure="open">
+<ci>a</ci>
+<ci>b</ci>
+</interval>
+<interval closure="open">
+<ci>a</ci>
+<ci>b</ci>
+</interval>
+</apply>
+</math>
+

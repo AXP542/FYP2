@@ -1,0 +1,17 @@
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+<apply>
+<int/>
+<domainofapplication>
+<ci>C</ci>
+</domainofapplication>
+<bvar>
+<ci>x</ci>
+</bvar>
+<apply>
+<ci>f</ci>
+<ci>x</ci>
+</apply>
+</apply>
+</math>
+

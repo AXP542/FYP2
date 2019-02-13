@@ -1,0 +1,33 @@
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+<apply>
+<eq/>
+<apply>
+<cosh/>
+<ci>A</ci>
+</apply>
+<apply>
+<times/>
+<cn type="rational">
+<cn>1</cn>
+<sep/>2</cn>
+<apply>
+<plus/>
+<apply>
+<power/>
+<exponentiale/>
+<ci>A</ci>
+</apply>
+<apply>
+<power/>
+<exponentiale/>
+<apply>
+<minus/>
+<ci>A</ci>
+</apply>
+</apply>
+</apply>
+</apply>
+</apply>
+</math>
+

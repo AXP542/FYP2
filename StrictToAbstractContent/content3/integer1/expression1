@@ -1,0 +1,25 @@
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+<apply>
+<eq/>
+<apply>
+<factorial/>
+<ci>n</ci>
+</apply>
+<apply>
+<product/>
+<interval closure="closed">
+<cn type="integer">1</cn>
+<ci>n</ci>
+</interval>
+<bind>
+<lambda/>
+<bvar>
+<ci>i</ci>
+</bvar>
+<ci>i</ci>
+</bind>
+</apply>
+</apply>
+</math>
+

@@ -1,0 +1,21 @@
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+<apply>
+<limit/>
+<bvar>
+<ci>x</ci>
+</bvar>
+<condition>
+<apply>
+<tendsto type="below"/>
+<ci>x</ci>
+<cn type="integer">0</cn>
+</apply>
+</condition>
+<apply>
+<sin/>
+<ci>x</ci>
+</apply>
+</apply>
+</math>
+

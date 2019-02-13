@@ -1,0 +1,42 @@
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+<bind>
+<forall/>
+<bvar>
+<ci>x</ci>
+</bvar>
+<apply>
+<implies/>
+<apply>
+<and/>
+<apply>
+<in/>
+<ci>a</ci>
+<reals/>
+</apply>
+<apply>
+<in/>
+<ci>k</ci>
+<integers/>
+</apply>
+</apply>
+<apply>
+<eq/>
+<cn type="complex-polar">x<sep/>a</cn>
+<cn type="complex-polar">x<sep/>
+<apply>
+<plus/>
+<ci>a</ci>
+<apply>
+<times/>
+<cn type="integer">2</cn>
+<pi/>
+<ci>k</ci>
+</apply>
+</apply>
+</cn>
+</apply>
+</apply>
+</bind>
+</math>
+

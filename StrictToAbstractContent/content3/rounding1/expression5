@@ -1,0 +1,45 @@
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+<bind>
+<forall/>
+<bvar>
+<ci>x</ci>
+</bvar>
+<apply>
+<implies/>
+<apply>
+<and/>
+<apply>
+<not/>
+<apply>
+<in/>
+<ci>x</ci>
+<integers/>
+</apply>
+</apply>
+<apply>
+<in/>
+<apply>
+<times/>
+<ci>x</ci>
+<cn type="integer">2</cn>
+</apply>
+<integers/>
+</apply>
+</apply>
+<apply>
+<in/>
+<apply>
+<divide/>
+<apply>
+<round/>
+<ci>x</ci>
+</apply>
+<cn type="integer">2</cn>
+</apply>
+<integers/>
+</apply>
+</apply>
+</bind>
+</math>
+

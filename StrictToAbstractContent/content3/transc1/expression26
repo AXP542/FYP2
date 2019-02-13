@@ -1,0 +1,37 @@
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+<apply>
+<implies/>
+<apply>
+<in/>
+<ci>x</ci>
+<interval closure="open">
+<apply>
+<minus/>
+<apply>
+<divide/>
+<pi/>
+<cn type="integer">2</cn>
+</apply>
+</apply>
+<apply>
+<divide/>
+<pi/>
+<cn type="integer">2</cn>
+</apply>
+</interval>
+</apply>
+<apply>
+<eq/>
+<apply>
+<arctan/>
+<apply>
+<tan/>
+<ci>x</ci>
+</apply>
+</apply>
+<ci>x</ci>
+</apply>
+</apply>
+</math>
+

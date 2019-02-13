@@ -1,0 +1,36 @@
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+<apply>
+<eq/>
+<apply>
+<abs/>
+<ci>x</ci>
+</apply>
+<piecewise>
+<piece>
+<apply>
+<minus/>
+<ci>x</ci>
+</apply>
+<apply>
+<lt/>
+<ci>x</ci>
+<cn type="integer">0</cn>
+</apply>
+</piece>
+<piece>
+<cn type="integer">0</cn>
+<apply>
+<eq/>
+<ci>x</ci>
+<cn type="integer">0</cn>
+</apply>
+</piece>
+<piece>
+<ci>x</ci>
+<ci>otherwise</ci>
+</piece>
+</piecewise>
+</apply>
+</math>
+

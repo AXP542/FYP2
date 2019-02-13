@@ -1,0 +1,45 @@
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+<apply>
+<implies/>
+<apply>
+<in/>
+<ci>n</ci>
+<integers/>
+</apply>
+<apply>
+<and/>
+<apply>
+<eq/>
+<apply>
+<power/>
+<ci>x</ci>
+<cn type="integer">0</cn>
+</apply>
+<cn>1</cn>
+</apply>
+<apply>
+<eq/>
+<apply>
+<power/>
+<ci>x</ci>
+<ci>n</ci>
+</apply>
+<apply>
+<times/>
+<ci>x</ci>
+<apply>
+<power/>
+<ci>x</ci>
+<apply>
+<minus/>
+<ci>n</ci>
+<cn type="integer">1</cn>
+</apply>
+</apply>
+</apply>
+</apply>
+</apply>
+</apply>
+</math>
+

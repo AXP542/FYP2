@@ -1,0 +1,33 @@
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+<apply>
+<equivalent/>
+<apply>
+<in/>
+<ci>n</ci>
+<interval closure="closed">
+<ci>a</ci>
+<ci>b</ci>
+</interval>
+</apply>
+<apply>
+<and/>
+<apply>
+<in/>
+<ci>n</ci>
+<integers/>
+</apply>
+<apply>
+<le/>
+<ci>a</ci>
+<ci>n</ci>
+</apply>
+<apply>
+<le/>
+<ci>n</ci>
+<ci>b</ci>
+</apply>
+</apply>
+</apply>
+</math>
+

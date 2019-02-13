@@ -1,0 +1,26 @@
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+<apply>
+<eq/>
+<apply>
+<sdev/>
+<ci>f</ci>
+</apply>
+<apply>
+<mean/>
+<apply>
+<power/>
+<apply>
+<minus/>
+<ci>f</ci>
+<apply>
+<mean/>
+<ci>f</ci>
+</apply>
+</apply>
+<cn type="integer">2</cn>
+</apply>
+</apply>
+</apply>
+</math>
+

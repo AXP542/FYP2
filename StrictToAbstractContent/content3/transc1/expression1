@@ -1,0 +1,11 @@
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+<apply>
+<log/>
+<logbase>
+<cn type="real">10</cn>
+</logbase>
+<cn type="real">100</cn>
+</apply>
+</math>
+

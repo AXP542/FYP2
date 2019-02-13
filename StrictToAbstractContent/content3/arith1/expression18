@@ -1,0 +1,22 @@
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+<apply>
+<sum/>
+<interval closure="closed">
+<cn type="integer">1</cn>
+<cn type="integer">10</cn>
+</interval>
+<bind>
+<lambda/>
+<bvar>
+<ci>x</ci>
+</bvar>
+<apply>
+<divide/>
+<cn type="integer">1</cn>
+<ci>x</ci>
+</apply>
+</bind>
+</apply>
+</math>
+

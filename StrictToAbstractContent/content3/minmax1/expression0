@@ -1,0 +1,16 @@
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+<apply>
+<eq/>
+<apply>
+<min/>
+<set>
+<cn type="integer">1</cn>
+<cn type="integer">9</cn>
+<cn type="integer">5</cn>
+</set>
+</apply>
+<cn type="integer">1</cn>
+</apply>
+</math>
+

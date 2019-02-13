@@ -1,0 +1,16 @@
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+<apply>
+<eq/>
+<apply>
+<domain/>
+<apply>
+<restriction/>
+<ci>f</ci>
+<ci>S</ci>
+</apply>
+</apply>
+<ci>S</ci>
+</apply>
+</math>
+

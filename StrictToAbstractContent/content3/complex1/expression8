@@ -1,0 +1,27 @@
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+<apply>
+<implies/>
+<apply>
+<gt/>
+<ci>x</ci>
+<cn>0</cn>
+</apply>
+<apply>
+<eq/>
+<apply>
+<argument/>
+<cn type="complex-cartesian">x<sep/>y</cn>
+</apply>
+<apply>
+<arctan/>
+<apply>
+<divide/>
+<ci>y</ci>
+<ci>x</ci>
+</apply>
+</apply>
+</apply>
+</apply>
+</math>
+

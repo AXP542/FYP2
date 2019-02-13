@@ -1,0 +1,31 @@
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+<bind>
+<forall/>
+<bvar>
+<ci>x</ci>
+</bvar>
+<apply>
+<implies/>
+<apply>
+<and/>
+<apply>
+<in/>
+<ci>x</ci>
+<integers/>
+</apply>
+<apply>
+<eq/>
+<ci>x</ci>
+<cn>1</cn>
+</apply>
+</apply>
+<apply>
+<eq/>
+<ci>x</ci>
+<cn type="integer">1</cn>
+</apply>
+</apply>
+</bind>
+</math>
+

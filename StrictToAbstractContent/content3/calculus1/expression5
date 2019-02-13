@@ -1,0 +1,37 @@
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+<apply>
+<eq/>
+<apply>
+<apply>
+<partialdiff/>
+<list>
+<cn type="integer">1</cn>
+<cn type="integer">3</cn>
+</list>
+<lambda>
+<bvar>
+<ci>x</ci>
+</bvar>
+<bvar>
+<ci>y</ci>
+</bvar>
+<bvar>
+<ci>z</ci>
+</bvar>
+<apply>
+<times/>
+<ci>x</ci>
+<ci>y</ci>
+<ci>z</ci>
+</apply>
+</lambda>
+</apply>
+<ci>x</ci>
+<ci>y</ci>
+<ci>z</ci>
+</apply>
+<ci>y</ci>
+</apply>
+</math>
+

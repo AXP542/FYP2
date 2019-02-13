@@ -1,0 +1,35 @@
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+<apply>
+<eq/>
+<apply>
+<arccot/>
+<ci>x</ci>
+</apply>
+<apply>
+<times/>
+<apply>
+<divide/>
+<imaginaryi/>
+<cn type="integer">2</cn>
+</apply>
+<apply>
+<ln/>
+<apply>
+<divide/>
+<apply>
+<minus/>
+<ci>x</ci>
+<imaginaryi/>
+</apply>
+<apply>
+<plus/>
+<ci>x</ci>
+<imaginaryi/>
+</apply>
+</apply>
+</apply>
+</apply>
+</apply>
+</math>
+

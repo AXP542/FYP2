@@ -1,0 +1,21 @@
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+<apply>
+<eq/>
+<apply>
+<sin/>
+<ci>A</ci>
+</apply>
+<apply>
+<minus/>
+<apply>
+<sin/>
+<apply>
+<minus/>
+<ci>A</ci>
+</apply>
+</apply>
+</apply>
+</apply>
+</math>
+

@@ -1,0 +1,15 @@
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+<apply>
+<eq/>
+<apply>
+<partialdiff/>
+<nthdiff>
+<cn>0</cn>
+</nthdiff>
+<ci>f</ci>
+</apply>
+<ci>f</ci>
+</apply>
+</math>
+

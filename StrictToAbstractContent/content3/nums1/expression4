@@ -1,0 +1,29 @@
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+<apply>
+<eq/>
+<exponentiale/>
+<apply>
+<sum/>
+<interval closure="closed">
+<cn>0</cn>
+<infinity/>
+</interval>
+<bind>
+<lambda/>
+<bvar>
+<ci>j</ci>
+</bvar>
+<apply>
+<divide/>
+<cn>1</cn>
+<apply>
+<factorial/>
+<ci>j</ci>
+</apply>
+</apply>
+</bind>
+</apply>
+</apply>
+</math>
+

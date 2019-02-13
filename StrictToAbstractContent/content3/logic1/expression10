@@ -1,0 +1,22 @@
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+<bind>
+<forall/>
+<bvar>
+<ci>x</ci>
+</bvar>
+<apply>
+<eq/>
+<apply>
+<or/>
+<ci>x</ci>
+<apply>
+<not/>
+<ci>x</ci>
+</apply>
+</apply>
+<true/>
+</apply>
+</bind>
+</math>
+

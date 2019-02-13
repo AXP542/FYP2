@@ -1,0 +1,24 @@
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+<list>
+<bvar>
+<ci>x</ci>
+</bvar>
+<condition>
+<apply>
+<in/>
+<ci>x</ci>
+<interval closure="closed">
+<cn type="integer">0</cn>
+<cn type="integer">10</cn>
+</interval>
+</apply>
+</condition>
+<apply>
+<times/>
+<cn type="integer">2</cn>
+<ci>x</ci>
+</apply>
+</list>
+</math>
+

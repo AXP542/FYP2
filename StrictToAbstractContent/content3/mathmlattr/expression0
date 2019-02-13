@@ -1,0 +1,16 @@
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+<semantics>
+<ci>x</ci>
+<annotation-xml cd="mathmlattr" name="foreign">
+<apply>
+<foreign_attribute/>
+<cs>http://example.com</cs>
+<cs>other</cs>
+<cs>att</cs>
+<cs>bla</cs>
+</apply>
+</annotation-xml>
+</semantics>
+</math>
+

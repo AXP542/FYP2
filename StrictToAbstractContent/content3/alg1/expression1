@@ -1,0 +1,19 @@
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+<bind>
+<forall/>
+<bvar>
+<ci>a</ci>
+</bvar>
+<apply>
+<eq/>
+<apply>
+<times/>
+<cn>0</cn>
+<ci>a</ci>
+</apply>
+<cn>0</cn>
+</apply>
+</bind>
+</math>
+

@@ -1,0 +1,33 @@
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+<apply>
+<equivalent/>
+<apply>
+<in/>
+<ci>x</ci>
+<interval closure="open-closed">
+<ci>a</ci>
+<ci>b</ci>
+</interval>
+</apply>
+<apply>
+<and/>
+<apply>
+<in/>
+<ci>x</ci>
+<reals/>
+</apply>
+<apply>
+<lt/>
+<ci>a</ci>
+<ci>x</ci>
+</apply>
+<apply>
+<le/>
+<ci>x</ci>
+<ci>b</ci>
+</apply>
+</apply>
+</apply>
+</math>
+

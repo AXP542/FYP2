@@ -1,0 +1,27 @@
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+<apply>
+<eq/>
+<apply>
+<diff/>
+<bvar>
+<ci>y</ci>
+</bvar>
+<apply>
+<apply>
+<int/>
+<bvar>
+<ci>z</ci>
+</bvar>
+<apply>
+<ci>f</ci>
+<ci>z</ci>
+</apply>
+</apply>
+<ci>y</ci>
+</apply>
+</apply>
+<ci>f</ci>
+</apply>
+</math>
+

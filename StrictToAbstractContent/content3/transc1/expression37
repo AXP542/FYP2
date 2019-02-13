@@ -1,0 +1,23 @@
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+<apply>
+<eq/>
+<apply>
+<arccosh/>
+<ci>z</ci>
+</apply>
+<apply>
+<times/>
+<imaginaryi/>
+<apply>
+<minus/>
+<pi/>
+<apply>
+<arccos/>
+<ci>z</ci>
+</apply>
+</apply>
+</apply>
+</apply>
+</math>
+

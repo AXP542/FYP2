@@ -1,0 +1,13 @@
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+<apply>
+<gt/>
+<apply>
+<plus/>
+<cn type="integer">1</cn>
+<cn type="integer">2</cn>
+</apply>
+<cn type="integer">2</cn>
+</apply>
+</math>
+

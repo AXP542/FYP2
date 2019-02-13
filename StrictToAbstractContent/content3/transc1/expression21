@@ -1,0 +1,44 @@
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+<apply>
+<eq/>
+<apply>
+<arcsin/>
+<ci>z</ci>
+</apply>
+<apply>
+<times/>
+<apply>
+<minus/>
+<imaginaryi/>
+</apply>
+<apply>
+<ln/>
+<apply>
+<plus/>
+<apply>
+<root/>
+<degree>
+<cn type="integer">2</cn>
+</degree>
+<apply>
+<minus/>
+<cn>1</cn>
+<apply>
+<power/>
+<ci>z</ci>
+<cn type="integer">2</cn>
+</apply>
+</apply>
+</apply>
+<apply>
+<times/>
+<imaginaryi/>
+<ci>z</ci>
+</apply>
+</apply>
+</apply>
+</apply>
+</apply>
+</math>
+

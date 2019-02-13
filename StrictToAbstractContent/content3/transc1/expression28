@@ -1,0 +1,25 @@
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+<bind>
+<forall/>
+<bvar>
+<ci>z</ci>
+</bvar>
+<apply>
+<eq/>
+<apply>
+<arcsec/>
+<ci>z</ci>
+</apply>
+<apply>
+<times/>
+<imaginaryi/>
+<apply>
+<arcsech/>
+<ci>z</ci>
+</apply>
+</apply>
+</apply>
+</bind>
+</math>
+

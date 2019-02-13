@@ -1,0 +1,27 @@
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+<apply>
+<implies/>
+<apply>
+<eq/>
+<apply>
+<power/>
+<ci>a</ci>
+<ci>b</ci>
+</apply>
+<ci>c</ci>
+</apply>
+<apply>
+<eq/>
+<apply>
+<log/>
+<logbase>
+<ci>a</ci>
+</logbase>
+<ci>c</ci>
+</apply>
+<ci>b</ci>
+</apply>
+</apply>
+</math>
+

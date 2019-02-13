@@ -1,0 +1,15 @@
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+<apply>
+<selector/>
+<matrix>
+<matrixrow>
+<cn type="integer">0</cn>
+<cn type="integer">1</cn>
+<cn type="integer">0</cn>
+</matrixrow>
+</matrix>
+<cn type="integer">2</cn>
+</apply>
+</math>
+

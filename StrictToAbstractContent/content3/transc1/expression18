@@ -1,0 +1,19 @@
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+<apply>
+<eq/>
+<apply>
+<sech/>
+<ci>A</ci>
+</apply>
+<apply>
+<divide/>
+<cn>1</cn>
+<apply>
+<cosh/>
+<ci>A</ci>
+</apply>
+</apply>
+</apply>
+</math>
+

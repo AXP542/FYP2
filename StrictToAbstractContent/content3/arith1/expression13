@@ -1,0 +1,31 @@
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+<apply>
+<eq/>
+<apply>
+<power/>
+<matrix>
+<matrixrow>
+<cn type="integer">1</cn>
+<cn type="integer">2</cn>
+</matrixrow>
+<matrixrow>
+<cn type="integer">3</cn>
+<cn type="integer">4</cn>
+</matrixrow>
+</matrix>
+<cn type="integer">3</cn>
+</apply>
+<matrix>
+<matrixrow>
+<cn type="integer">37</cn>
+<cn type="integer">54</cn>
+</matrixrow>
+<matrixrow>
+<cn type="integer">81</cn>
+<cn type="integer">118</cn>
+</matrixrow>
+</matrix>
+</apply>
+</math>
+

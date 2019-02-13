@@ -1,0 +1,21 @@
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+<bind>
+<forall/>
+<bvar>
+<ci>r</ci>
+</bvar>
+<bvar>
+<ci>a</ci>
+</bvar>
+<apply>
+<eq/>
+<apply>
+<argument/>
+<cn type="complex-polar">r<sep/>a</cn>
+</apply>
+<ci>a</ci>
+</apply>
+</bind>
+</math>
+

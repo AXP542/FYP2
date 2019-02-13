@@ -1,0 +1,20 @@
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+<apply>
+<eq/>
+<apply>
+<power/>
+<exponentiale/>
+<apply>
+<times/>
+<imaginaryi/>
+<pi/>
+</apply>
+</apply>
+<apply>
+<minus/>
+<cn>1</cn>
+</apply>
+</apply>
+</math>
+

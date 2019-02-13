@@ -1,0 +1,110 @@
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+<apply>
+<eq/>
+<apply>
+<scalarproduct/>
+<ci>a</ci>
+<ci>b</ci>
+</apply>
+<apply>
+<times/>
+<apply>
+<root/>
+<degree>
+<cn type="integer">2</cn>
+</degree>
+<apply>
+<plus/>
+<apply>
+<power/>
+<apply>
+<selector/>
+<ci>a</ci>
+<cn type="integer">1</cn>
+</apply>
+<cn type="integer">2</cn>
+</apply>
+<apply>
+<power/>
+<apply>
+<selector/>
+<ci>a</ci>
+<cn type="integer">2</cn>
+</apply>
+<cn type="integer">2</cn>
+</apply>
+</apply>
+</apply>
+<apply>
+<root/>
+<degree>
+<cn type="integer">2</cn>
+</degree>
+<apply>
+<plus/>
+<apply>
+<power/>
+<apply>
+<selector/>
+<ci>b</ci>
+<cn type="integer">1</cn>
+</apply>
+<cn type="integer">2</cn>
+</apply>
+<apply>
+<power/>
+<apply>
+<selector/>
+<ci>b</ci>
+<cn type="integer">2</cn>
+</apply>
+<cn type="integer">2</cn>
+</apply>
+</apply>
+</apply>
+<apply>
+<cos/>
+<apply>
+<abs/>
+<apply>
+<minus/>
+<apply>
+<arctan/>
+<apply>
+<divide/>
+<apply>
+<selector/>
+<ci>a</ci>
+<cn type="integer">2</cn>
+</apply>
+<apply>
+<selector/>
+<ci>a</ci>
+<cn type="integer">1</cn>
+</apply>
+</apply>
+</apply>
+<apply>
+<arctan/>
+<apply>
+<divide/>
+<apply>
+<selector/>
+<ci>b</ci>
+<cn type="integer">2</cn>
+</apply>
+<apply>
+<selector/>
+<ci>b</ci>
+<cn type="integer">1</cn>
+</apply>
+</apply>
+</apply>
+</apply>
+</apply>
+</apply>
+</apply>
+</apply>
+</math>
+

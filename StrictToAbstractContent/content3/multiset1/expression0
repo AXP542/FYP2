@@ -1,0 +1,17 @@
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+<apply>
+<eq/>
+<apply>
+<size/>
+<apply>
+<multiset/>
+<cn type="integer">3</cn>
+<cn type="integer">3</cn>
+<cn type="integer">9</cn>
+</apply>
+</apply>
+<cn type="integer">3</cn>
+</apply>
+</math>
+

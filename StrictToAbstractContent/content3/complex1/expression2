@@ -1,0 +1,21 @@
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+<bind>
+<forall/>
+<bvar>
+<ci>x</ci>
+</bvar>
+<bvar>
+<ci>y</ci>
+</bvar>
+<apply>
+<eq/>
+<ci>y</ci>
+<apply>
+<imaginary/>
+<cn type="complex-cartesian">x<sep/>y</cn>
+</apply>
+</apply>
+</bind>
+</math>
+

@@ -1,0 +1,56 @@
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+<bind>
+<forall/>
+<bvar>
+<ci>x</ci>
+</bvar>
+<apply>
+<implies/>
+<apply>
+<in/>
+<ci>x</ci>
+<interval closure="open-closed">
+<cn type="integer">0</cn>
+<cn type="integer">1</cn>
+</interval>
+</apply>
+<apply>
+<eq/>
+<apply>
+<arcsech/>
+<ci>x</ci>
+</apply>
+<apply>
+<ln/>
+<apply>
+<plus/>
+<apply>
+<divide/>
+<cn>1</cn>
+<ci>x</ci>
+</apply>
+<apply>
+<power/>
+<apply>
+<minus/>
+<apply>
+<divide/>
+<cn>1</cn>
+<apply>
+<power/>
+<ci>x</ci>
+<cn type="integer">2</cn>
+</apply>
+</apply>
+<cn>1</cn>
+</apply>
+<cn type="rational">1<sep/>2</cn>
+</apply>
+</apply>
+</apply>
+</apply>
+</apply>
+</bind>
+</math>
+

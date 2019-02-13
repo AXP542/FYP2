@@ -1,0 +1,20 @@
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+<apply>
+<int/>
+<bvar>
+<ci>x</ci>
+</bvar>
+<lowlimit>
+<cn type="real">-1.0</cn>
+</lowlimit>
+<uplimit>
+<cn type="real">1.0</cn>
+</uplimit>
+<apply>
+<sin/>
+<ci>x</ci>
+</apply>
+</apply>
+</math>
+
