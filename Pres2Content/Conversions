@@ -132,3 +132,13 @@
 <pres><apply><msub><log/><var>0</var></msub><var>0</var></apply></pres>%<cont><apply><log/><logbase><var>0</var></logbase><var>0</var></apply></cont>
 <pres><apply><power/><exponentiale/><var>0</var></apply></pres>%<cont><apply><exp/><var>0</var></apply></cont>
 
+
+<pres><mi><attributes>mathvariant:double-struck</attributes>C</mi></pres>%<cont><complexes/></cont>%
+<pres><mi><attributes>mathvariant:double-struck</attributes>Z</mi></pres>%<cont><integers/></cont>%
+<pres><mi><attributes>mathvariant:double-struck</attributes>N</mi></pres>%<cont><naturalnumbers/></cont>%
+<pres><mi><attributes>mathvariant:double-struck</attributes>P</mi></pres>%<cont><primes/></cont>%
+<pres><mi><attributes>mathvariant:double-struck</attributes>Q</mi></pres>%<cont><rationals/></cont>%
+<pres><mi><attributes>mathvariant:double-struck</attributes>R</mi></pres>%<cont><reals/></cont>%
+
+
+

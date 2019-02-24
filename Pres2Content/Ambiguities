@@ -15,4 +15,4 @@
 <pres><var>0</var><mo>&amp;#xB1;</mo><var>0</var></pres>%<cont><apply><minus/><var>0</var><var>0</var></apply></cont>%n
 
 <pres><mo>|</mo><var>0</var><mo>|</mo></pres>%<cont><apply><abs/><var>0</var></apply></cont>%
-<pres><mo>|</mo><var>0</var><mo>|</mo></pres>%<cont><apply><card/><var>0</var></apply></cont>%
+<pres><mo>|</mo><var>0</var><mo>|</mo></pres>%<cont><apply><card/><var><attributes>type:set</attributes>0</var></apply></cont>%
