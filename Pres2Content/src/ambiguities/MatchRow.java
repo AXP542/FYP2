@@ -3,6 +3,8 @@ package ambiguities;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.w3c.dom.Element;
+import org.w3c.dom.NamedNodeMap;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
@@ -24,7 +26,7 @@ public class MatchRow {
 	public boolean matches() {
 		Node nodeToCheck = startNode;
 		for(Node expectedNode : rowList) {
-			if(nodesMatch(nodeToCheck, expectedNode)) {
+			if(nodesMatch(nodeToCheck, expectedNode) && matchAttr(nodeToCheck, expectedNode)) {
 				nodesToRemove.add(nodeToCheck);
 				nodeToCheck = nodeToCheck.getNextSibling();
 			}else {
@@ -34,8 +36,7 @@ public class MatchRow {
 		}		
 		return true;
 	}
-	
-	// todo unarynus
+
 
 	private boolean nodesMatch(Node nodeToCheck, Node expectedNode) {
 		if(nodeToCheck == null) {
@@ -64,6 +65,23 @@ public class MatchRow {
 		}
 		
 		return false;
+	}
+	
+	
+	
+	private boolean matchAttr(Node nodeToCheck, Node expectedNode) {
+		Element eNode = (Element)expectedNode;
+		Element cNode = (Element)nodeToCheck;
+				
+		NamedNodeMap expected = eNode.getAttributes();
+		for(int i = 0; i < expected.getLength(); i++) {
+			Node att = expected.item(i);
+			if(!cNode.getAttribute(att.getNodeName()).equals(att.getTextContent())) {
+				return false;
+			}
+		}
+		
+		return true;
 	}
 
 }

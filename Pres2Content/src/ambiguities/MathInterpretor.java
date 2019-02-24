@@ -13,6 +13,7 @@ import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 
 import org.w3c.dom.Document;
+import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.InputSource;
@@ -88,6 +89,20 @@ public class MathInterpretor {
 				clone = match.vars.get(v).cloneNode(true);
 				v++;
 			}
+			
+			Element atts = (Element) oldVar;
+			if(atts.hasAttribute("type")) {
+				if(!((Element)clone).hasAttribute("type")){
+					((Element)clone).setAttribute("type", atts.getAttribute("type"));
+					// TODO add inferred type to list of inferred types to be used across all docs.
+				}else if(!((Element)clone).getAttribute("type").equals(atts.getAttribute("type"))) {
+					String errorText = ((Element)doc.getFirstChild()).getAttribute("error");
+					errorText += "Expecting type: " + atts.getAttribute("type") + 
+							" Var type: " + ((Element)clone).getAttribute("type") + "; ";
+					((Element)doc.getFirstChild()).setAttribute("error", errorText);
+				}
+			}
+			
 			replacementDoc.adoptNode(clone);
 			oldVar.getParentNode().replaceChild(clone, oldVar);
 			i--;
@@ -139,7 +154,19 @@ public class MathInterpretor {
 	private Document makeDoc(String xml) {
 		try {
 			DocumentBuilder db = DocumentBuilderFactory.newInstance().newDocumentBuilder();
-			return db.parse(new InputSource(new StringReader(xml)));
+			Document r = db.parse(new InputSource(new StringReader(xml)));
+			List<Node> nodes = getAllNodes(r.getFirstChild());
+			for(Node n : nodes) {
+				if(n.getNodeName().equals("attributes")) {
+					Element parent = (Element) n.getParentNode();
+					String[] attributes = n.getTextContent().split(","); 
+					for(String att : attributes) {
+						parent.setAttribute(att.split(":")[0], att.split(":")[1]);
+						parent.removeChild(n);
+					}
+				}
+			}
+			return r;
 		} catch (ParserConfigurationException | SAXException | IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

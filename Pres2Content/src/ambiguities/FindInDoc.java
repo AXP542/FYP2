@@ -56,6 +56,19 @@ public class FindInDoc {
 						clone = mr.vars.get(v).cloneNode(true);
 						v++;
 					}
+					// Type checking
+					Element atts = (Element) oldVar;
+					if(atts.hasAttribute("type")) {
+						if(!((Element)clone).hasAttribute("type")){
+							((Element)clone).setAttribute("type", atts.getAttribute("type"));
+						}else if(!((Element)clone).getAttribute("type").equals(atts.getAttribute("type"))) {
+							String errorText = ((Element)doc.getFirstChild()).getAttribute("error");
+							errorText += "Expecting type: " + atts.getAttribute("type") + 
+									" Var type: " + ((Element)clone).getAttribute("type") + "; ";
+							((Element)doc.getFirstChild()).setAttribute("error", errorText);
+						}
+					}
+					
 					replacementDoc.adoptNode(clone);
 					oldVar.getParentNode().replaceChild(clone, oldVar);
 					i--;
